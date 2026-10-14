@@ -1,0 +1,13 @@
+{
+  "name": "xuecheng-guanjia",
+  "version": "0.1.0",
+  "private": true,
+  "description": "学程管家 — 学业学分进度图谱小程序",
+  "scripts": {
+    "docs": "node tools/gen-docs.js",
+    "test": "node --test tests/"
+  },
+  "dependencies": {
+    "docx": "^9.7.1"
+  }
+}

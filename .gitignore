@@ -1,0 +1,37 @@
+# ===== 依赖 =====
+node_modules/
+package-lock.json.bak
+
+# ===== 微信开发者工具的个人配置（官方建议不提交，会互相覆盖本地设置） =====
+project.private.config.json
+
+# ===== 小程序构建产物 =====
+miniprogram_npm/
+cloudfunctions/**/node_modules/
+
+# ===== 云开发本地配置与凭据 =====
+.env
+*.secret
+cloudfunctions/**/config.local.js
+
+# ===== 运行时与工具产物 =====
+logs/
+screenshots/
+.superpowers/
+__pycache__/
+*.py[cod]
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.iml
+
+# ===== 系统与 Office 临时文件 =====
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+
+# ===== 真实学生数据（内测数据不得进仓库，只用脱敏样例） =====
+data/raw/
+data/real/
